@@ -10,7 +10,22 @@ import {
 import { Cta, Brand, Navbar } from "./components";
 
 const App = () => {
-  return <h1>Hello</h1>;
+  return (
+    <div className="app">
+      <div className="gradient_bg">
+        <Navbar />
+        <Header />
+      </div>
+
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <Cta />
+      <Blog />
+      <Footer />
+    </div>
+  );
 };
 
 export default App;
