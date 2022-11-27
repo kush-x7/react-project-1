@@ -68,6 +68,7 @@ a {
   margin: 4rem 6rem;
 }
 
+/* For thr Nav Menu */
 .scale-up-center {
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
     both;
@@ -107,7 +108,7 @@ a {
 }
 
 /* FOR MOBILE DEVICES */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 550px) {
   .section__padding {
     padding: 4rem 2rem;
   }

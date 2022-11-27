@@ -30,6 +30,7 @@ const Menu = () => {
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
+    // let's divide navbar into 2 parts. 1.links , 2. sign up buttons
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
@@ -59,6 +60,7 @@ const Navbar = () => {
             onClick={() => setToggleMenu(true)}
           />
         )}
+
         {toggleMenu && (
           <div className="gpt3__navbar-menu_container scale-up-center">
             <div className="gpt3__navbar-menu_container-links">
